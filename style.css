@@ -42,8 +42,9 @@ body{
      
 }
 .pricing-item-section .items .pricing-item{
-     box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 50px 0px inset;
+     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgb(243, 243, 243) 0px 0px 0px 2px;
      transition: 1s;
+     margin-bottom: 50px;
 }
 .pricing-item:hover{
      background-color: #2f65ed;
@@ -118,4 +119,98 @@ body{
      height: 100%;
      z-index: -1;
      background-color:rgba(0, 0, 249, 0.8);
+}
+/* --------banner-section------- */
+/* --------banner-section------- */
+.banner-section{
+     background-image: url(./img/free-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    background-position-y: -88px;
+}
+.banner-title h1{
+     width: 38%;
+     margin: 0 auto;
+}
+.banner-title p{
+     width: 38%;
+     margin: 0 auto;
+     font-size: 20px;
+}
+.banner-section hr{
+     width: 55px;
+     height: 2px;
+     z-index:-1;
+     color:rgb(255, 255, 255);
+     opacity: 5;
+     margin: 0 auto;
+}
+.banner-section button{
+     color:rgba(0, 0, 255, 0.79);
+     font-size: 20px;
+     font-weight: 500;
+     padding: 13px 25px !important;
+     border-radius: 25px;
+     margin-top: 50px;
+     position: relative;
+     z-index: 1;
+}
+.banner-section button::after{
+     content: "";
+     position: absolute;
+     width: 0%;
+     height: 100%;
+     background-color:rgba(0, 0, 255, 0.79);
+     top: 0;
+     left: 0;
+     border-radius: 25px;
+     visibility: hidden;
+     opacity: 0;
+     transition: 1s;
+     z-index: -1;
+}
+.banner-section button:hover::after{
+     visibility: visible;
+     opacity: 1;
+     width: 100%;
+}
+.banner-section button:hover{
+     Color:white !important;
+
+}
+.banner{
+     background-color: rgba(3, 41, 255, 0.758);
+     padding: 100px 0;
+}
+/* ---------------business-card-section------------ */
+/* ---------------business-card-section------------ */
+.business-card-section{
+}
+.business-card-section .card-1{
+     background-color: rgba(0, 0, 255, 0.79);
+     padding: 50px;
+     color:white;
+}
+.card-1 p{
+     font-size: 20px;
+}
+.email{
+     width: 100%;
+     padding: 5px;
+     border-radius: 20px;
+     border: none;
+     font-size: 20px;
+     padding-left: 20px !important;
+}
+.card-item-2 button{
+     border-radius: 23px;
+     border: 2px solid white;
+     font-weight: 500;
+     font-size: 18px;
+     background-color: rgba(0, 0, 255, 0.79);
+     width: 170px;
+     color:white;
+     padding: 5px;
 }
