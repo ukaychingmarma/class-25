@@ -76,7 +76,7 @@ body{
      color: #2f65ed;
 
 }
-.pricing-item-section h1{
+.pricing-item-section span{
      font-size: 53px;
      font-weight: 500;
 }
@@ -208,9 +208,9 @@ body{
      border-radius: 23px;
      border: 2px solid white;
      font-weight: 500;
-     font-size: 18px;
+     font-size: 1.1rem;
      background-color: rgba(0, 0, 255, 0.79);
-     width: 170px;
+     width: 162px;
      color:white;
      padding: 5px;
 }
@@ -223,7 +223,7 @@ body{
 }
 .card-2{
      box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
-     height: 308px;
+     height: fit-content;
      padding: 50px;
      display: flex;
      flex-wrap: wrap;
